@@ -5,7 +5,7 @@ import CollectionPreview from '../../components/preview-collection/collection-pr
 class ShopPage extends Component {
     constructor(props) {
         super(props);
-        console.log(props);
+
         this.state = {
             collection: SHOP_DATA
         };
