@@ -14,6 +14,7 @@ const Header = ({ currentUser, hidden }) => (
         <Link className='logo-contatiner' to='/'>
             <Logo className='logo' />
         </Link>
+
         <div className='options'>
             <Link className='option' to='/shop'>
                 Shop
@@ -28,7 +29,7 @@ const Header = ({ currentUser, hidden }) => (
                     Sign out
                 </div>
             ) : (
-                <Link to='/signIn'>Sign in</Link>
+                <Link to='/signIn'>Sign In</Link>
             )}
 
             <CartIcon />
